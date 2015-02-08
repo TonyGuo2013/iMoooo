@@ -44,7 +44,7 @@
       <file leaf-file-name="Index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="21" selection-start="712" selection-end="712" vertical-scroll-proportion="0.5795981" vertical-offset="0" max-vertical-offset="647">
+            <state line="25" column="20" selection-start="711" selection-end="711" vertical-scroll-proportion="0.5795981" vertical-offset="0" max-vertical-offset="647">
               <folding />
             </state>
           </provider>
@@ -395,7 +395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="21" selection-start="712" selection-end="712" vertical-scroll-proportion="0.5795981" vertical-offset="0" max-vertical-offset="647">
+        <state line="25" column="20" selection-start="711" selection-end="711" vertical-scroll-proportion="0.5795981" vertical-offset="0" max-vertical-offset="647">
           <folding />
         </state>
       </provider>
