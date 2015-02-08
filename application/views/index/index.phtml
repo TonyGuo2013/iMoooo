@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>iMoooo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="alternate icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="stylesheet" href="/public/assets/css/amazeui.min.css"/>
+  <style>
+    @media only screen and (min-width: 1200px) {
+      .blog-g-fixed {
+        max-width: 1200px;
+      }
+    }
+
+    @media only screen and (min-width: 641px) {
+      .blog-sidebar {
+        font-size: 1.4rem;
+      }
+    }
+
+    .blog-main {
+      padding: 20px 0;
+    }
+
+    .blog-title {
+      margin: 10px 0 20px 0;
+    }
+
+    .blog-meta {
+      font-size: 14px;
+      margin: 10px 0 20px 0;
+      color: #222;
+    }
+
+    .blog-meta a {
+      color: #27ae60;
+    }
+
+    .blog-pagination a {
+      font-size: 1.4rem;
+    }
+
+    .blog-team li {
+      padding: 4px;
+    }
+
+    .blog-team img {
+      margin-bottom: 0;
+    }
+
+    .blog-footer {
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<header class="am-topbar">
+  <h1 class="am-topbar-brand">
+    <a href="#">iMoooo</a>
+  </h1>
+
+  <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+          data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+      class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+    <ul class="am-nav am-nav-pills am-topbar-nav">
+      <li class="am-active"><a href="#">首页</a></li>
+      <li><a href="#">搜索还没实现</a></li>
+      <li class="am-dropdown" data-am-dropdown>
+        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+          菜单 <span class="am-icon-caret-down"></span>
+        </a>
+        <ul class="am-dropdown-content">
+          <li class="am-dropdown-header">标题</li>
+          <li><a href="#">关于我，下面自己看。</a></li>
+          <li><a href="#">往下面翻！</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <form class="am-topbar-form am-topbar-left am-form-inline am-topbar-right" role="search">
+      <div class="am-form-group">
+        <input type="text" class="am-form-field am-input-sm" placeholder="搜索文章">
+      </div>
+      <button type="submit" class="am-btn am-btn-default am-btn-sm">搜索</button>
+    </form>
+
+  </div>
+</header>
+
+<div class="am-g am-g-fixed blog-g-fixed">
+  <div class="am-u-md-8">
+    <article class="blog-main">
+      <h3 class="am-article-title blog-title">
+        <a href="#">What's iMoooo?</a>
+      </h3>
+      <h4 class="am-article-meta blog-meta">by <a href="">郭蜜桃。</a>2015年02月08日00:42:52</h4>
+
+      <div class="am-g blog-content">
+        <div class="am-u-lg-7">
+            <p>其实我也不知道iMoooo尼玛啥意思啊。。啊哈哈，只是觉得好看一冲动就把iMoooo.cn的域名给买下来了做blog用了。。页面只是实现了内容发布。。别的敬请期待哦亲。。。</p>
+        </div>
+        <div class="am-u-lg-5">
+          <p><img src="/public/images/2.jpeg"></p>
+        </div>
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          <p>「你是想要一种心跳的感觉么？PS：啊哈哈哈，大半夜的，你说这个干毛啊，蜜桃。」</p>
+        </div>
+      </div>
+    </article>
+
+    <hr class="am-article-divider blog-hr">
+
+    <article class="blog-main">
+      <h3 class="am-article-title">
+        <a href="#">Test</a>
+      </h3>
+        <h4 class="am-article-meta blog-meta">by <a href="">郭蜜桃。</a>2015年02月08日01:16:03</h4>
+      </h4>
+      <div class="am-g blog-content">
+        <div class="am-u-lg-7">
+          <p>
+                    嗯哼嗯哼。
+          </p>
+        </div>
+        <div class="am-u-lg-5">
+          <p><img src="/public/images/1.jpeg"></p>
+        </div>
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+            <p>尼玛H5的标签好强大啊。。。。</p>
+        </div>
+      </div>
+    </article>
+
+    <hr class="am-article-divider blog-hr">
+    <ul class="am-pagination blog-pagination">
+      <li class="am-pagination-prev"><a href="">&laquo; 上一页</a></li>
+      <li class="am-pagination-next"><a href="">下一页 &raquo;</a></li>
+    </ul>
+  </div>
+
+  <div class="am-u-md-4 blog-sidebar">
+    <div class="am-panel-group">
+      <section class="am-panel am-panel-default">
+        <div class="am-panel-hd">关于我</div>
+        <div class="am-panel-bd">
+          <p>
+               iMoooo创始人！！！二逼PHP码农一枚！PS：说创始人的时候好羞射啊。。。啊哈哈哈哈哈。
+          </p>
+          <a class="am-btn am-btn-success am-btn-sm" href="#">查看更多 →</a>
+        </div>
+      </section>
+      <section class="am-panel am-panel-default">
+        <div class="am-panel-hd">文章目录</div>
+        <ul class="am-list blog-list">
+          <li><a href="#">测试标题1</a></li>
+        </ul>
+      </section>
+
+      <section class="am-panel am-panel-default">
+        <div class="am-panel-hd">团队成员</div>
+        <div class="am-panel-bd">
+          <ul class="am-avg-sm-4 blog-team">
+            <li><img class="am-thumbnail" src="/public/images/touxiang.JPG" alt=""/>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+
+</div>
+
+<footer class="blog-footer">
+  <p>iMoooo<br/>
+    <small>© Copyright 阿轩和他的朋友们.</small>
+  </p>
+</footer>
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="/public/assets/js/polyfill/rem.min.js"></script>
+<script src="/public/assets/js/polyfill/respond.min.js"></script>
+<script src="/punlic/assets/js/amazeui.legacy.js"></script>
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/public/assets/js/jquery.min.js"></script>
+<script src="/public/assets/js/amazeui.min.js"></script>
+<!--<![endif]-->
+</body>
+</html>
