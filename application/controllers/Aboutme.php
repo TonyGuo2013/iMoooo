@@ -16,8 +16,6 @@ class AboutmeController extends Yaf_Controller_Abstract
      */
     public function indexAction()
     {
-        print_R($_SERVER);
-        die;
         return TRUE;
     }
 }
