@@ -6,7 +6,7 @@
  * Time: 下午7:08
  */
 
-class AboutMeController extends Yaf_Controller_Abstract
+class AboutmeController extends Yaf_Controller_Abstract
 {
 
     /**
