@@ -1,112 +1,22 @@
 <?php
 /**
  * Created by JetBrains PhpStorm.
- * User: yexuan.guo@gmail.com
+ * User: YexuanGuo
  * Date: 15-2-8
  * Time: 下午6:46
  * To change this template use File | Settings | File Templates.
  */
 
-class BaseController extends YafController
+class BaseController extends Yaf_Controller_Abstract
 {
-    protected $uid;
-    protected $logger = null;
-    /* @var YafView */
-    protected $view;
-
     public function init()
     {
-        $session = Yaf_Session::getInstance();
-        $this->uid = $session->offsetGet('uid');
-        $clazz = get_class($this);
-        $this->logger = Logger::LOG($clazz);
-        $this->_view->setRequest($this->getRequest());
-        $this->view = $this->_view;
-        if ($this->uid) {
-        }
-        $this->view->uid = $this->uid;
-    }
-
-    public function doInit()
-    {
-//@todo to del
 
     }
     public function jumpDirect($url='/')
     {
         header('Location: '.$url);
-        haloDie();
     }
-
-    /*
-     * 根据省获取城市列表
-     */
-    public function getCityAction()
-    {
-        $p = $this->getLegalParam('province','str');
-        $api = new Api();
-        $citys = $api->getCity($p);
-
-//        $html = PublishBuilder::buildCityForProvinceSelect($citys);
-//        echo $html;
-
-        $result = '{"code":0,"data":[';
-        foreach ($citys as $city)
-        {
-            $result .= '{"id":'.$city["id"].', "name":"'.$city["name"].'"},';
-        }
-        $result = substr($result, 0, strlen($result)-1);
-        $result .= ']}';
-
-        echo $result;
-        haloDie();
-
-    }
-
-    /*
-     * 根据年月获取日期
-     */
-    public function getDayAction()
-    {
-//        if($this->getRequest()->isPost())
-        {
-            $year = $this->getLegalParam('year', 'int');
-            $month = $this->getLegalParam('month', 'int');
-
-            $days = Api::getDay($year, $month);
-
-            $dayList = array( 0 => '日' );
-            foreach($days as $v)
-            {
-                $dayList[$v['id']] = $v['id'];
-            }
-
-            $html = BaseBuilder::buildOptionHtml($dayList, 0);
-
-            $result = '{"code":0, "data":"'.$html.'"}';
-
-            echo $result;
-            haloDie();
-        }
-//        else
-//        {
-//            $this->inputParamErrorResult();
-//        }
-
-    }
-
-    protected function partial($template, $data=array(), $retStr=true)
-    {
-        return $this->view->partial($template, $data, $retStr);
-    }
-
-
-    public function errorPage( $msg = "not found", $code = 404)
-    {
-        $this->getResponse()->clearBody();
-        throw new Exception($msg, $code);
-    }
-
     /**
      * @param $time
      * @return bool|string
