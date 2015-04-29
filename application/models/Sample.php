@@ -1,9 +1,11 @@
 <?php
-/**
- * @name SampleModel
- * @desc sample数据获取类, 可以访问数据库，文件，其它系统等
- * @author TonyAnywhere_
+/*
+ * @name IndexController
+ * @author yexuan.guo@gmail.com
+ * @desc 默认控制器
+ * @lastModify 2015年04月29日16:45:16 Review Code.
  */
+
 class SampleModel {
     public function __construct() {
     }   
