@@ -11,7 +11,7 @@ class SystemConfig
     public static function  init()
     {
         $_ENV['APP_NAME']=(pathinfo(realpath(APPLICATION_PATH),  PATHINFO_BASENAME ));
-        $configurePath = sprintf('%s/../config/config.ini', APPLICATION_PATH);
+        $configurePath = sprintf('%s/config/config.ini', APPLICATION_PATH);
         $config = new Yaf_Config_Ini($configurePath, 'production');
         Yaf_Registry::set('config', $config);
         SystemConfig::loadEssentials();
@@ -22,6 +22,7 @@ class SystemConfig
         Yaf_Loader::import(sprintf('%s/yaf/YafController.php', LIB_PATH));
         Yaf_Loader::import(sprintf('%s/yaf/YafDebug.php', LIB_PATH));
         Yaf_Loader::import(sprintf('%s/yaf/YafView.php', LIB_PATH));
+        Yaf_Loader::import(sprintf('%s/halo/HaloModel.php',LIB_PATH));
     }
 }
 

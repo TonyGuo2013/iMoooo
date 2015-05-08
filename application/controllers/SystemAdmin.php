@@ -18,7 +18,10 @@ class SystemAdminController extends BaseController{
         if($this->getRequest()->isPost()){
             $params['usernmae'] = $this->getLegalParam('username','str');
             $params['password'] = $this->getLegalParam('password','str');
-            print_R($params);die;
+//            $r = new AccountModel();
+//            print_R($r->Login());
+//            die;
+            return false;
         }else{
             echo "POST_ERROR";
             return false;
