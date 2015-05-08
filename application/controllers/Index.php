@@ -7,12 +7,17 @@
  */
 class IndexController extends BaseController {
 
-	public function indexAction($name = "Stranger") {
+	public function indexAction() {
         return TRUE;
 	}
 
     public function aaAction()
     {
         print_R($_SERVER);
+    }
+
+    public function infoAction()
+    {
+        phpinfo();
     }
 }

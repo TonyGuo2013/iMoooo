@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Created by PhpStorm.
  * User: YexuanGuo@gmail.com
  * Date: 15-2-9
@@ -9,10 +9,10 @@
 class AboutmeController extends BaseController
 {
 
-    /**
+    /*
      * @return bool
-     * default reason page
-     * time 2015年02月09日19:10:14
+     * @default reason page
+     * @time 2015年02月09日19:10:14
      */
     public function indexAction()
     {
