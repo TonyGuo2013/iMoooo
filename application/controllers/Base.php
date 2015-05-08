@@ -7,12 +7,17 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class BaseController extends Yaf_Controller_Abstract
+class BaseController extends YafController
 {
     public function init()
     {
+    }
+
+    public function doInit()
+    {
 
     }
+
     public function jumpDirect($url='/')
     {
         header('Location: '.$url);
