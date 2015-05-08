@@ -16,10 +16,8 @@ class SystemAdminController extends BaseController{
     public function LoginAction()
     {
         if($this->getRequest()->isPost()){
-            echo "<pre>";
             $params['usernmae'] = $this->getLegalParam('username','str');
             $params['password'] = $this->getLegalParam('password','str');
-
             print_R($params);die;
         }else{
             echo "POST_ERROR";
