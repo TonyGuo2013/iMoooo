@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutme.phtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/aboutme/aboutme.phtml">
+      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/aboutme/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="416" column="54" selection-start="30446" selection-end="30446" vertical-scroll-proportion="0.42982456" vertical-offset="5897" max-vertical-offset="11145">
+            <state line="628" column="2254" selection-start="38922" selection-end="38923" vertical-scroll-proportion="0.33290157" vertical-offset="9163" max-vertical-offset="11145">
               <folding />
             </state>
           </provider>
@@ -663,9 +663,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/aboutme/aboutme.phtml">
+    <entry file="file://$PROJECT_DIR$/application/views/aboutme/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="416" column="54" selection-start="30446" selection-end="30446" vertical-scroll-proportion="0.42982456" vertical-offset="5897" max-vertical-offset="11145">
+        <state line="628" column="2254" selection-start="38922" selection-end="38923" vertical-scroll-proportion="0.33290157" vertical-offset="9163" max-vertical-offset="11145">
           <folding />
         </state>
       </provider>
