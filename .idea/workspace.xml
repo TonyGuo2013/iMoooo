@@ -35,7 +35,7 @@
       <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/aboutme/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="628" column="2254" selection-start="38922" selection-end="38923" vertical-scroll-proportion="0.33290157" vertical-offset="9163" max-vertical-offset="11145">
+            <state line="626" column="2254" selection-start="38667" selection-end="38668" vertical-scroll-proportion="0.33290157" vertical-offset="9133" max-vertical-offset="11115">
               <folding />
             </state>
           </provider>
@@ -124,8 +124,8 @@
         <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/application/library/halo/HaloModel.php" />
         <option value="$PROJECT_DIR$/application/controllers/SystemAdmin.php" />
-        <option value="$PROJECT_DIR$/application/views/aboutme/index.phtml" />
         <option value="$PROJECT_DIR$/application/views/aboutme/aboutme.phtml" />
+        <option value="$PROJECT_DIR$/application/views/aboutme/index.phtml" />
       </list>
     </option>
   </component>
@@ -665,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/aboutme/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="628" column="2254" selection-start="38922" selection-end="38923" vertical-scroll-proportion="0.33290157" vertical-offset="9163" max-vertical-offset="11145">
+        <state line="626" column="2254" selection-start="38667" selection-end="38668" vertical-scroll-proportion="0.33290157" vertical-offset="9133" max-vertical-offset="11115">
           <folding />
         </state>
       </provider>
