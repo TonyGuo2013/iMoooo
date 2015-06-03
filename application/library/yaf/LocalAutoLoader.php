@@ -3,23 +3,7 @@
 class LocalAutoLoader
 {
     public static $map = array(
-                                'ZmqClient'=>array(LIB_PATH, '/zmq/ZmqClient.php'),
-                                'ProfileHelper'=>array(LIB_PATH, '/ProfileHelper.php'),
-                                'SaeTClientV2'=>array(LIB_PATH, '/sina/saetv2.ex.class.php'),
-                                'SSOWirelessClient'=>array(LIB_PATH, '/sina/SSOWirelessClient.php'),
-                                'SphinxClient'=>array(LIB_PATH, '/sphinxapi.php'),
-                                'ezSQLcore'=>array(LIB_PATH, '/ez_sql/ez_sql_core.php'),
-                                'ezSQL_mysql'=>array(LIB_PATH, '/ez_sql/ez_sql_mysql.php'),
-                                'SessionHandler'=>array(LIB_PATH, '/WContact/SessionHandler.php'),
-                                'Halo_Model'=>array(LIB_PATH, '/halo/HaloModel.php'),
-                                'FastImage'=>array(LIB_PATH, '/utils/FastImage.php'),
-                                'ApiInvoker'=>array(LIB_PATH, '/wzhaopin/ApiInvoker.php'),
-                                'RennClient'=>array(LIB_PATH, '/sns/renren/RennClient.php'),
-                                'KxApiBase'=>array(LIB_PATH, '/sns/kaixin/KxApiBase.class.php'),
-                                'KxApiClient'=>array(LIB_PATH, '/sns/kaixin/KxApiBase.class.php'),
-                                'Mcache'=>array(LIB_PATH, '/cache/Memcache.php'),
-                                'lessc'=>array(LIB_PATH, '/less/lessc.inc.php'),
-                                'ShareTemplate'=>array(APPLICATION_PATH, '/application/template/ShareTemplate.php'),
+//                                'ZmqClient'=>array(LIB_PATH, '/zmq/ZmqClient.php'),
                              );
     public static function register()
     {

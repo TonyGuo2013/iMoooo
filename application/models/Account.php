@@ -7,8 +7,11 @@
  */
 class AccountModel extends HaloModel{
 
-    static public function Login(){
-
+    /*
+     * 验证用户登录
+     */
+    public function checkLogin($usernmae,$password){
+        return  $this->getRowByCondition('im_account',sprintf("username='%s' AND password='%s'", $usernmae,md5($password)));
     }
 }
 ?>
