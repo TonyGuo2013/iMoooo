@@ -18,7 +18,6 @@ class HaloModel{
         $port = isset($config->db->imoooo->port) ? $config->db->imoooo->port : 3306;
         $dsn = sprintf('mysql:host=%s;dbname=%s;port=%d', $config->db->imoooo->host, $config->db->imoooo->name, $port);
         $this->dbname = strtolower(trim($config->db->imoooo->name));
-//        echo $dsn;
         try {
             $this->dbh = new PDO($dsn, $config->db->imoooo->user, $config->db->imoooo->pass,
                 array(
