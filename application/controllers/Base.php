@@ -13,9 +13,9 @@ class BaseController extends YafController
     {
         parent::init();
         $uid = isset($_COOKIE['uid']) ? $_COOKIE['uid'] : 0;
-        if(!empty($uid)){
-            $this->render('/systemadmin/home');
-        }
+//        if(!empty($uid)){
+//            $this->render('/systemadmin/home');
+//        }
     }
     public function jumpDirect($url='/')
     {
