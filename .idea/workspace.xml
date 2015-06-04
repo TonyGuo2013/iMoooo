@@ -26,10 +26,8 @@
       <file leaf-file-name="SystemAdmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="34" selection-start="340" selection-end="340" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="960">
-              <folding>
-                <element signature="e#6#87#0" expanded="true" />
-              </folding>
+            <state line="4" column="15" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="960">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,8 +35,10 @@
       <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="33" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="4830">
-              <folding />
+            <state line="14" column="23" selection-start="293" selection-end="293" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="4830">
+              <folding>
+                <element signature="e#6#163#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +55,7 @@
       <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="5" selection-start="6572" selection-end="6572" vertical-scroll-proportion="0.49308756" vertical-offset="2664" max-vertical-offset="3315">
+            <state line="20" column="5" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.4608295" vertical-offset="0" max-vertical-offset="3570">
               <folding />
             </state>
           </provider>
@@ -250,6 +250,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -649,23 +667,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="4830">
-          <folding />
+        <state line="14" column="23" selection-start="293" selection-end="293" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="4830">
+          <folding>
+            <element signature="e#6#163#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="340" selection-end="340" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="960">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
-          </folding>
+        <state line="4" column="15" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="960">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="5" selection-start="6572" selection-end="6572" vertical-scroll-proportion="0.49308756" vertical-offset="2664" max-vertical-offset="3315">
+        <state line="20" column="5" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.4608295" vertical-offset="0" max-vertical-offset="3570">
           <folding />
         </state>
       </provider>
