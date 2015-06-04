@@ -12,19 +12,19 @@ class SessionModel extends HaloModel{
     }
 
     static public function Login($user){
-        if(!$user){
+        if(empty($user)){
             return ;
         }
-        if(!self::HasLogin()){
-            $_SESSION['uid']       = $user['id'];
-            $_SESSION['username '] = $user['username'];
-        }
+        setcookie('uid',$user['id'],time()+1800);
+        setcookie('username',$user['username'],time()+1800);
     }
     /*
      * 登出
      */
     static public function Logout(){
-        session_destroy();
+//        session_destroy();
+        setcookie("uid", "",time()-3600);
+        setcookie("username", "",time()-3600);
     }
 }
 ?>

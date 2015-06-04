@@ -23,15 +23,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HaloModel.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/library/halo/HaloModel.php">
+      <file leaf-file-name="SystemAdmin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="563" selection-end="563" vertical-scroll-proportion="0.45180723" vertical-offset="0" max-vertical-offset="1155">
+            <state line="14" column="28" selection-start="256" selection-end="256" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="900">
               <folding>
                 <element signature="e#6#87#0" expanded="true" />
-                <marker date="1433332660000" expanded="true" signature="1479:1512" placeholder="SELECT * FRO..." />
-                <marker date="1433332660000" expanded="true" signature="1576:1610" placeholder="SELECT %s FR..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="25" selection-start="353" selection-end="353" vertical-scroll-proportion="41.625" vertical-offset="1224" max-vertical-offset="4815">
+              <folding>
+                <element signature="e#6#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Session.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/Session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="20" selection-start="300" selection-end="300" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/systemadmin/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="10" selection-start="1638" selection-end="1638" vertical-scroll-proportion="-31.25" vertical-offset="0" max-vertical-offset="1395">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="16" selection-start="4861" selection-end="4861" vertical-scroll-proportion="0.62211984" vertical-offset="1785" max-vertical-offset="3315">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,18 +84,14 @@
       <list>
         <option value="$PROJECT_DIR$/application/controllers/AboutMe.php" />
         <option value="$PROJECT_DIR$/application/models/Sample.php" />
-        <option value="$PROJECT_DIR$/application/library/yaf/YafController.php" />
-        <option value="$PROJECT_DIR$/application/views/index/index.phtml" />
         <option value="$PROJECT_DIR$/application/controllers/Aboutme.php" />
         <option value="$PROJECT_DIR$/application/controllers/Index.php" />
         <option value="$PROJECT_DIR$/application/controllers/SyswinAdmin.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Base.php" />
         <option value="$PROJECT_DIR$/application/library/halo/HaloPdo.php" />
         <option value="$PROJECT_DIR$/application/models/Accout.php" />
         <option value="$PROJECT_DIR$/application/models/AccoutModel.php" />
         <option value="$PROJECT_DIR$/application/views/aboutme/aboutme.phtml" />
         <option value="$PROJECT_DIR$/application/views/aboutme/index.phtml" />
-        <option value="$PROJECT_DIR$/application/views/systemadmin/index.phtml" />
         <option value="$PROJECT_DIR$/application/library/yaf/LocalAutoLoader.php" />
         <option value="$PROJECT_DIR$/conf/application.ini" />
         <option value="$PROJECT_DIR$/config/config.ini" />
@@ -68,10 +100,14 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/application/configs/config.ini" />
         <option value="$PROJECT_DIR$/application/models/Account.php" />
-        <option value="$PROJECT_DIR$/application/models/Session.php" />
-        <option value="$PROJECT_DIR$/application/controllers/SystemAdmin.php" />
         <option value="$PROJECT_DIR$/application/views/systemadmin/home.phtml" />
         <option value="$PROJECT_DIR$/application/library/halo/HaloModel.php" />
+        <option value="$PROJECT_DIR$/application/library/yaf/YafController.php" />
+        <option value="$PROJECT_DIR$/application/models/Session.php" />
+        <option value="$PROJECT_DIR$/application/controllers/SystemAdmin.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Base.php" />
+        <option value="$PROJECT_DIR$/application/views/systemadmin/index.phtml" />
+        <option value="$PROJECT_DIR$/application/views/index/index.phtml" />
       </list>
     </option>
   </component>
@@ -166,7 +202,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,145 +220,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="systemadmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="halo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imoooo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,26 +346,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="113" selection-start="2765" selection-end="2862" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="4755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Aboutme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="9" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="855" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="53" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="585" />
       </provider>
     </entry>
@@ -524,11 +414,6 @@
         <state line="28" column="0" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/yaf/YafView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="343" selection-end="343" vertical-scroll-proportion="-4.888717" vertical-offset="3388" max-vertical-offset="4035" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="18" selection-start="28" selection-end="28" vertical-scroll-proportion="0.04636785" vertical-offset="0" max-vertical-offset="647" />
@@ -557,11 +442,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="9" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.34254807" vertical-offset="1290" max-vertical-offset="15300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="952" selection-end="966" vertical-scroll-proportion="0.25641027" vertical-offset="0" max-vertical-offset="3150" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_defines.php">
@@ -595,11 +475,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="957" column="7" selection-start="30095" selection-end="30095" vertical-scroll-proportion="0.38700566" vertical-offset="14081" max-vertical-offset="20205" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/yaf/YafController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="488" selection-end="488" vertical-scroll-proportion="-3.6043165" vertical-offset="2760" max-vertical-offset="4785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/library/yaf/yar.php">
@@ -638,37 +513,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/yaf/yaf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="559" column="26" selection-start="9047" selection-end="9047" vertical-scroll-proportion="0.3448795" vertical-offset="8156" max-vertical-offset="23115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/systemadmin/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="537" selection-end="545" vertical-scroll-proportion="0.24849397" vertical-offset="0" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/configs/SystemConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="327" selection-end="327" vertical-scroll-proportion="0.20331325" vertical-offset="0" max-vertical-offset="664">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Account.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.18072289" vertical-offset="0" max-vertical-offset="664">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="457" selection-end="457" vertical-scroll-proportion="0.4743976" vertical-offset="0" max-vertical-offset="664">
           <folding />
         </state>
       </provider>
@@ -679,13 +526,6 @@
           <folding>
             <marker date="1433320981000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="51" selection-end="51" vertical-scroll-proportion="0.067771085" vertical-offset="0" max-vertical-offset="825">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,23 +543,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
+    <entry file="file://$PROJECT_DIR$/public/assets/i/startup-640x1096.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/i/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/i/app-icon72x72@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/library/yaf/YafView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="9" selection-end="9" vertical-scroll-proportion="0.023041476" vertical-offset="0" max-vertical-offset="4830">
+        <state line="15" column="30" selection-start="347" selection-end="357" vertical-scroll-proportion="0.33885542" vertical-offset="0" max-vertical-offset="4035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/library/yaf/yaf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="44" selection-start="4362" selection-end="4362" vertical-scroll-proportion="0.22590362" vertical-offset="3645" max-vertical-offset="23115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/configs/SystemConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="575" selection-end="582" vertical-scroll-proportion="0.31626505" vertical-offset="0" max-vertical-offset="664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/library/yaf/YafController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="198" selection-end="198" vertical-scroll-proportion="0.2764977" vertical-offset="0" max-vertical-offset="4815">
           <folding>
-            <element signature="e#6#163#0" expanded="true" />
+            <element signature="e#7#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/library/halo/HaloModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="563" selection-end="563" vertical-scroll-proportion="0.45180723" vertical-offset="0" max-vertical-offset="1155">
+        <state line="21" column="46" selection-start="610" selection-end="610" vertical-scroll-proportion="0.4743976" vertical-offset="0" max-vertical-offset="1155">
           <folding>
             <element signature="e#6#87#0" expanded="true" />
-            <marker date="1433332660000" expanded="true" signature="1479:1512" placeholder="SELECT * FRO..." />
-            <marker date="1433332660000" expanded="true" signature="1576:1610" placeholder="SELECT %s FR..." />
+            <marker date="1433332660000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1433332660000" expanded="true" signature="-1:-1" placeholder="SELECT %s FR..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="256" selection-end="256" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="900">
+          <folding>
+            <element signature="e#6#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/systemadmin/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="10" selection-start="1638" selection-end="1638" vertical-scroll-proportion="-31.25" vertical-offset="0" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/amazeui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding>
+            <element signature="e#40663#40986#1" expanded="true" />
+            <element signature="e#151507#152858#2" expanded="true" />
+            <element signature="e#153613#154024#2" expanded="true" />
+            <element signature="e#154181#156572#2" expanded="true" />
+            <element signature="e#156719#159110#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="300" selection-end="300" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="353" selection-end="353" vertical-scroll-proportion="41.625" vertical-offset="1224" max-vertical-offset="4815">
+          <folding>
+            <element signature="e#6#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="16" selection-start="4861" selection-end="4861" vertical-scroll-proportion="0.62211984" vertical-offset="1785" max-vertical-offset="3315">
+          <folding />
         </state>
       </provider>
     </entry>

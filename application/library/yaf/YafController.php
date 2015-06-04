@@ -1,7 +1,17 @@
 <?php
 
+/*
+ * Based Yaf_Controller_Abstract.
+ * Yexuan.guo@gmail.com
+ * 2015年06月04日10:54:50
+ */
+
 class YafController extends Yaf_Controller_Abstract{
 
+    protected $uid;
+
+    public function init(){
+    }
     protected function getLegalParam($tag,$legalType,$legalList=array(),$default=null)
     {
         //检查是否是post请求
@@ -192,8 +202,6 @@ class YafController extends Yaf_Controller_Abstract{
             $result = false;
             foreach($legalHost as $v)
             {
-//                $pos = stripos($url['host'],$v);
-//                if($pos!==false)
                 if($v == $url['host'])
                 {
                     $result = true;
@@ -279,7 +287,6 @@ class YafController extends Yaf_Controller_Abstract{
 
     protected function inputErrorResult($code)
     {
-//        $desc = ErrorCode::errorMsgByCode($code);
         $desc = WrmErrorCodeManager::getErrorInfo($code, "client");
         echo json_encode(array('code'=>$code,'desc'=>$desc));
         haloDie();
@@ -287,16 +294,11 @@ class YafController extends Yaf_Controller_Abstract{
 
     protected function inputParamErrorResult()
     {
-//        echo json_encode(array('code'=>-100,'desc'=>'param error'));
         $this->inputErrorResult(WrmErrorCodeManager::CLIENT_ERR_ILLEGAL_PARAM);
-//        haloDie();
     }
 
     protected function inputRefererErrorResult()
     {
-//        echo json_encode(array('code'=>-101,'desc'=>'referer error'));
-//        haloDie();
-//        YafDebug::log(sprintf("Illegal referer: uid is %s, referer is %s, params is %s ", WZhaopinEnv::getUid(), $_SERVER['HTTP_REFERER'], json_encode($_SERVER)), "refer_error");
         $this->inputErrorResult(WrmErrorCodeManager::CLIENT_ERR_ILLEGAL_REFER);
     }
 

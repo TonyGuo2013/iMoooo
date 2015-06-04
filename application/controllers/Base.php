@@ -11,13 +11,12 @@ class BaseController extends YafController
 {
     public function init()
     {
+        parent::init();
+        $uid = isset($_COOKIE['uid']) ? $_COOKIE['uid'] : 0;
+        if(!empty($uid)){
+            $this->render('/systemadmin/home');
+        }
     }
-
-    public function doInit()
-    {
-
-    }
-
     public function jumpDirect($url='/')
     {
         header('Location: '.$url);

@@ -11,7 +11,9 @@ class SystemAdminController extends BaseController{
     protected $userModel = NULL;
 
     public function init(){
+        parent::init();
         $this->userModel = new AccountModel();
+
     }
     public function indexAction()
     {
@@ -20,23 +22,26 @@ class SystemAdminController extends BaseController{
 
     public function LoginAction()
     {
+
         if($this->getRequest()->isPost()){
             $params['username'] = $this->getLegalParam('username','str');
             $params['password'] = $this->getLegalParam('password','str');
             if(empty($params['username']) || empty($params['password'])){
-                return "Please check username Or Password!";
+                echo "Please check username Or Password!";
+                return false;
             }else{
-                if(empty($params['username'])){
-                    return "Please enter username";
-                }elseif(empty($params['password'])){
-                    return "Please enter password";
-                }else{
                     $user = $this->userModel->checkLogin($params['username'],$params['password']);
                     if($user){
                         SessionModel::Login($user);
-                        parent::jumpDirect('/systemadmin/home');
+                        print_R($_COOKIE);
+                        print_R($user);
+                        die;
+                        echo 1;
+                        return false;
+                    }else{
+                        echo  "username Or password Error ~!";
+                        return false;
                     }
-                }
             }
         }else{
             echo "POST_ERROR";

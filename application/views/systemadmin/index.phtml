@@ -10,6 +10,7 @@
   <meta http-equiv="Cache-Control" content="no-siteapp" />
   <link rel="alternate icon" type="image/png" href="assets/i/favicon.png">
   <link rel="stylesheet" href="/public/assets/css/amazeui.min.css"/>
+  <script src="/public/assets/js/jquery.min.js"></script>
   <style>
     .header {
       text-align: center;
@@ -27,37 +28,35 @@
 <body>
 <div class="header">
   <div class="am-g">
-    <h1>System Admin for iMoooo</h1>
-    <p>PHP Development</p>
+    <h1>iMoooo</h1>
   </div>
   <hr />
 </div>
 <div class="am-g">
   <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
-    <h3>登录</h3>
-    <hr>
-    <div class="am-btn-group">
-      <a href="#" class="am-btn am-btn-secondary am-btn-sm"><i class="am-icon-github am-icon-sm"></i> Github</a>
-      <a href="#" class="am-btn am-btn-success am-btn-sm"><i class="am-icon-google-plus-square am-icon-sm"></i> Google+</a>
-    </div>
-    <br>
-    <br>
+<!--    <hr>-->
+<!--    <div class="am-btn-group">-->
+<!--      <a href="#" class="am-btn am-btn-secondary am-btn-sm"><i class="am-icon-github am-icon-sm"></i> Github</a>-->
+<!--      <a href="#" class="am-btn am-btn-success am-btn-sm"><i class="am-icon-google-plus-square am-icon-sm"></i> Google+</a>-->
+<!--    </div>-->
+<!--    <br>-->
+<!--    <br>-->
 
-    <form action="/systemadmin/login" method="post" class="am-form">
+    <form method="post" class="am-form">
       <label for="email">邮箱:</label>
-      <input type="email" name="username" id="email" value="">
+      <input type="email" name="username" id="username" value="">
       <br>
       <label for="password">密码:</label>
       <input type="password" name="password" id="password" value="">
       <br>
       <label for="remember-me">
-        <input id="remember-me" type="checkbox">
-        记住密码
+<!--        <input id="remember-me" type="checkbox">-->
+<!--        记住密码-->
       </label>
       <br />
       <div class="am-cf">
-        <input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-sm am-fl">
-        <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">
+        <input type="button" name="" value="登 录" onclick="check();" class="am-btn am-btn-primary am-btn-sm am-fl">
+<!--        <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">-->
       </div>
     </form>
     <hr>
@@ -66,3 +65,24 @@
 </div>
 </body>
 </html>
+<script type="application/javascript">
+        function check(){
+            var username = $("#username").val();
+            var password = $("#password").val();
+            $.ajax({
+                type : 'POST',
+                url : '/systemadmin/login',
+                data : $.param({
+                   username:username,
+                   password:password,
+                }),
+                success : function (data) {
+                    if(data == 1){
+                        window.location = '/systemadmin/home';
+                    }else{
+                        alert(data);
+                    }
+                }
+            });
+        }
+</script>
