@@ -13,6 +13,10 @@ class SystemAdminController extends BaseController{
     public function init(){
         parent::init();
         $this->userModel = new AccountModel();
+        if(empty($this->uid)){
+            $this->redirect('index');
+            return false;
+        }
 
     }
     public function indexAction()

@@ -26,7 +26,7 @@
       <file leaf-file-name="SystemAdmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="900">
+            <state line="16" column="34" selection-start="340" selection-end="340" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="960">
               <folding>
                 <element signature="e#6#87#0" expanded="true" />
               </folding>
@@ -34,21 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="330" selection-end="417" vertical-scroll-proportion="0.34562212" vertical-offset="0" max-vertical-offset="4815">
-              <folding>
-                <element signature="e#6#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Session.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/Session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="7" selection-start="452" selection-end="452" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="525">
+            <state line="2" column="33" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="4830">
               <folding />
             </state>
           </provider>
@@ -63,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="26" selection-start="4663" selection-end="4663" vertical-scroll-proportion="-89.375" vertical-offset="0" max-vertical-offset="3315">
+            <state line="199" column="5" selection-start="6572" selection-end="6572" vertical-scroll-proportion="0.49308756" vertical-offset="2664" max-vertical-offset="3315">
               <folding />
             </state>
           </provider>
@@ -104,10 +93,10 @@
         <option value="$PROJECT_DIR$/application/library/halo/HaloModel.php" />
         <option value="$PROJECT_DIR$/application/library/yaf/YafController.php" />
         <option value="$PROJECT_DIR$/application/models/Session.php" />
-        <option value="$PROJECT_DIR$/application/controllers/SystemAdmin.php" />
         <option value="$PROJECT_DIR$/application/views/systemadmin/index.phtml" />
-        <option value="$PROJECT_DIR$/application/views/index/index.phtml" />
         <option value="$PROJECT_DIR$/application/controllers/Base.php" />
+        <option value="$PROJECT_DIR$/application/controllers/SystemAdmin.php" />
+        <option value="$PROJECT_DIR$/application/views/index/index.phtml" />
       </list>
     </option>
   </component>
@@ -220,15 +209,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="systemadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -603,27 +624,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <folding>
-            <element signature="e#40663#40986#1" expanded="true" />
-            <element signature="e#151507#152858#2" expanded="true" />
-            <element signature="e#153613#154024#2" expanded="true" />
-            <element signature="e#154181#156572#2" expanded="true" />
-            <element signature="e#156719#159110#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="26" selection-start="4663" selection-end="4663" vertical-scroll-proportion="-89.375" vertical-offset="0" max-vertical-offset="3315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="900">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
+            <element signature="e#40663#40986#1" expanded="false" />
+            <element signature="e#151507#152858#2" expanded="false" />
+            <element signature="e#153613#154024#2" expanded="false" />
+            <element signature="e#154181#156572#2" expanded="false" />
+            <element signature="e#156719#159110#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -637,17 +642,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="452" selection-end="452" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="525">
+        <state line="22" column="7" selection-start="452" selection-end="452" vertical-scroll-proportion="0.49698794" vertical-offset="0" max-vertical-offset="664">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="330" selection-end="417" vertical-scroll-proportion="0.34562212" vertical-offset="0" max-vertical-offset="4815">
+        <state line="2" column="33" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="4830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="34" selection-start="340" selection-end="340" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="960">
           <folding>
-            <element signature="e#6#163#0" expanded="true" />
+            <element signature="e#6#87#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="5" selection-start="6572" selection-end="6572" vertical-scroll-proportion="0.49308756" vertical-offset="2664" max-vertical-offset="3315">
+          <folding />
         </state>
       </provider>
     </entry>
