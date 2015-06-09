@@ -14,8 +14,7 @@ class SystemAdminController extends BaseController{
         parent::init();
         $this->userModel = new AccountModel();
         if(empty($this->uid)){
-            $this->redirect('index');
-            return false;
+            $this->display('home');
         }
 
     }
