@@ -8,14 +8,16 @@
 class IndexController extends BaseController {
 
 	public function indexAction() {
-        return TRUE;
+        if(parent::isMobile()){
+            echo '手机版照片墙敬请期待..'."<br /><br />";
+            echo 'Version:2015年06月15日20:08:24'."<br /><br />";
+            echo 'Author:TonyGuo'."<br /><br />";;
+            echo 'Email:GuoYexuan@imoooo.cn';
+            return false;
+        }else{
+            return true;
+        }
 	}
-
-    public function aaAction()
-    {
-        print_R($_SERVER);
-    }
-
     public function infoAction()
     {
         phpinfo();
