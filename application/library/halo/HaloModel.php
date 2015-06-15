@@ -68,5 +68,39 @@ class HaloModel{
             return array($condition, null);
         }
     }
+
+    public function insertTable($table, $data)
+    {
+        if(!is_array($data))
+            return false;
+
+        list($fields, $values) = $this->getConditionArray($data);
+
+        if (!count($values))
+            return false;
+
+        $sql = sprintf('INSERT INTO %s SET %s', $table, $fields);
+        echo $sql;
+        $this->query($sql, $values);
+        $insertId = $this->dbh->lastInsertId();
+        if ($insertId === '0')
+        {
+            $desc = $this->get_results(sprintf('DESC %s', $table));
+            $priField = '';
+            foreach ($desc as $val)
+            {
+                if ($val['Key'] == 'PRI')
+                {
+                    $priField = $val['Field'];
+                    break;
+                }
+            }
+            if (!empty($priField))
+            {
+                $insertId = isset($data[$priField]) ? $data[$priField] : false;
+            }
+        }
+        return ($insertId===false) ? false : intval($insertId);
+    }
 }
 ?>
