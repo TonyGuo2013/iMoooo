@@ -51,6 +51,9 @@ class HaloModel{
         return $this->get_row($sql, $values);
     }
 
+    /*
+     * 获取数据库一行
+     */
     public function get_row($sql,  $values=null)
     {
         return $this->query($sql, $values)->fetch(PDO::FETCH_ASSOC);
@@ -69,6 +72,9 @@ class HaloModel{
         }
     }
 
+    /*
+     *  插入数据INSET INTO SET..
+     */
     public function insertTable($table, $data)
     {
         if(!is_array($data))
@@ -101,6 +107,34 @@ class HaloModel{
             }
         }
         return ($insertId===false) ? false : intval($insertId);
+    }
+
+    /*
+     * 转换条件数组
+     */
+    public function getConditionArray($data)
+    {
+        print_R($data);
+        if(count($data) == 0)
+            return array(null, null);
+
+        $fields = array();
+        $values = array();
+        foreach($data as $k=>$v)
+        {
+            $fields[] = sprintf('%s='."'%s'", $k, $v);
+            $values[] = $v;
+        }
+
+        return array(implode(',', $fields), $values);
+    }
+
+    /*
+     * 获取全部结果集
+     */
+    public function get_results($sql, $values=null)
+    {
+        return $this->query($sql, $values)->fetchAll(PDO::FETCH_ASSOC);
     }
 }
 ?>

@@ -4,18 +4,20 @@
  * User: YexuanGuo
  * Date: 15-6-12
  * Time: 下午2:31
+ * LastModify:2015年07月02日14:28:13
  */
 class UploadiMagesModel extends HaloModel{
 
     private $arrType = NULL;
     protected $_permited = array(
-        'gif',
-        'jpeg',
-        'jpg',
-        'bmp',
-        'pjpeg',
-        'png'
+        'image/gif',
+        'image/jpeg',
+        'image/jpg',
+        'image/bmp',
+        'image/pjpeg',
+        'image/x-png'
     );
+    protected $maxsize = 21000000;  //2MB
     /*
      * 创建目录
      */
@@ -46,7 +48,8 @@ class UploadiMagesModel extends HaloModel{
      */
     public function checkType($filename){
         if (!in_array(strtolower($filename), $this->_permited)){
-            return "该文件类型是不被允许的上传类型";
+//            return "该文件类型是不被允许的上传类型";
+             return false;
         }else {
             return true;
         }
@@ -68,19 +71,43 @@ class UploadiMagesModel extends HaloModel{
      */
     public function UploadiMagesToDir($Picture,$Formdesc){
         $picExtension['extension'] = pathinfo($Picture['name'])['extension'];
+//        if($Picture['size'] > $this->maxsize || !$this->checkType($picExtension['extension'])){
+//            exit('Please check U upload file type.Thank u ~');
+//        }
+        if($Picture['size'] > $this->maxsize || !$this->checkType($Picture['type'])){
+            exit('Please check U upload file type.Thank u ~');
+        }
         if($this->checkUploadiMagesByError($Picture['error'])){
-             if($this->checkType($Picture['name'])){
+            echo "<pre>";
+            print_R($Picture);
+             if($this->checkType($Picture['type'])){
                  $path = $this->CreateUploadDirByTime();
                  $this->mkdirByTime($path['file_path']);
                  /*文件夹赋权限*/
                  @chmod($path['file_path'],0777);
                  if(move_uploaded_file($Picture['tmp_name'],$path['file_path'].$path['file_name'].".".$picExtension['extension'])){
-                     return false;
+                     $Formdesc['pic_name'] = $path['file_name'].".".$picExtension['extension'];
+                     $Formdesc['pic_desc'] = $Formdesc['con_desc'];
+                     $Formdesc['camera_device'] = $Formdesc['device'];
+                     unset($Formdesc['con_desc'],$Formdesc['device'],$Formdesc['device']);
+                     $this->inserPictureDesc($Formdesc);
                  }else{
                      return 'Move Pic Error~:(';
                  }
+             }else{
+                 exit('File Type Error ~ Please check it.');
              }
         }
+    }
+
+    /*
+     * 插入图片信息;地点、任务、设备信息、图片简介.
+     */
+    public function inserPictureDesc($Formdesc){
+        echo "<pre>";
+        $res = $this->insertTable('im_feed',$Formdesc);
+        print_R($res);
+        return false;
     }
 }
 ?>

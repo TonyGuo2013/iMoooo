@@ -14,15 +14,13 @@ class UploadiMagesController extends BaseController{
     }
 
     public function indexAction(){
-
-        echo "<pre>";
         if($_FILES['pictures']['error'] > 0){
             echo  'error:'.$this->iMagesModel->checkUploadiMagesByError($_FILES['pictures']['error']);
             return false;
         }else{
             $this->iMagesModel->UploadiMagesToDir($_FILES['pictures'],$_POST);
         }
-        return false;
+        die;
     }
 }
 ?>

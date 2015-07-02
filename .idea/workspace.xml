@@ -23,29 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
+      <file leaf-file-name="UploadiMages.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/UploadiMages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="45" selection-start="339" selection-end="339" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="708">
+            <state line="98" column="14" selection-start="3261" selection-end="3262" vertical-scroll-proportion="-15.166667" vertical-offset="1106" max-vertical-offset="1770">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
+      <file leaf-file-name="HaloModel.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/library/halo/HaloModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="26" selection-start="2415" selection-end="2415" vertical-scroll-proportion="-56.875" vertical-offset="0" max-vertical-offset="4740">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="792" selection-end="792" vertical-scroll-proportion="27.375" vertical-offset="927" max-vertical-offset="1635">
-              <folding />
+            <state line="129" column="5" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.7063253" vertical-offset="1466" max-vertical-offset="2175">
+              <folding>
+                <element signature="e#6#87#0" expanded="true" />
+                <marker date="1435822309000" expanded="true" signature="1479:1512" placeholder="SELECT * FRO..." />
+                <marker date="1435822309000" expanded="true" signature="1576:1610" placeholder="SELECT %s FR..." />
+                <marker date="1435822309000" expanded="true" signature="2424:2445" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,19 +81,18 @@
         <option value="$PROJECT_DIR$/application/controllers/SystemAdmin.php" />
         <option value="$PROJECT_DIR$/application/views/systemadmin/home.phtml" />
         <option value="$PROJECT_DIR$/application/views/index/index.phtml" />
-        <option value="$PROJECT_DIR$/application/controllers/UploadiMages.php" />
-        <option value="$PROJECT_DIR$/application/library/halo/HaloModel.php" />
-        <option value="$PROJECT_DIR$/application/models/UploadiMages.php" />
         <option value="$PROJECT_DIR$/application/controllers/Index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/UploadiMages.php" />
+        <option value="$PROJECT_DIR$/application/models/UploadiMages.php" />
+        <option value="$PROJECT_DIR$/application/library/halo/HaloModel.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1600" />
     <option name="y" value="22" />
-    <option name="width" value="1600" />
-    <option name="height" value="878" />
+    <option name="width" value="1440" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -316,6 +311,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="getConditionArray" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -369,7 +365,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1600" y="22" width="1600" height="878" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="834" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -377,7 +373,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19768934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2267525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -385,11 +381,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -411,11 +407,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="555" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/library/yaf/LocalAutoLoader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="21" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="1065" />
@@ -583,11 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/library/yaf/YafController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="5" selection-start="8529" selection-end="8529" vertical-scroll-proportion="-178.125" vertical-offset="0" max-vertical-offset="4815">
-          <folding>
-            <element signature="e#7#94#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="285" column="5" selection-start="8529" selection-end="8529" vertical-scroll-proportion="-178.125" vertical-offset="0" max-vertical-offset="4815" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/aboutme/index.phtml">
@@ -622,85 +609,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/imoooo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="388" selection-end="388" vertical-scroll-proportion="0.22540984" vertical-offset="0" max-vertical-offset="732">
-          <folding />
-        </state>
+        <state line="11" column="3" selection-start="388" selection-end="388" vertical-scroll-proportion="0.22540984" vertical-offset="0" max-vertical-offset="732" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/systemadmin/home.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2797" selection-end="2797" vertical-scroll-proportion="0.15827338" vertical-offset="745" max-vertical-offset="2580">
-          <folding>
-            <marker date="1434081949000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="57" column="0" selection-start="2797" selection-end="2797" vertical-scroll-proportion="0.15827338" vertical-offset="745" max-vertical-offset="2580" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="115" selection-end="124" vertical-scroll-proportion="0.14830509" vertical-offset="0" max-vertical-offset="708">
-          <folding />
-        </state>
+        <state line="7" column="36" selection-start="115" selection-end="124" vertical-scroll-proportion="0.14830509" vertical-offset="0" max-vertical-offset="708" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="472" selection-end="472" vertical-scroll-proportion="0.21610169" vertical-offset="162" max-vertical-offset="870">
-          <folding />
-        </state>
+        <state line="26" column="5" selection-start="472" selection-end="472" vertical-scroll-proportion="0.21610169" vertical-offset="162" max-vertical-offset="870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="283" column="45" selection-start="7291" selection-end="7291" vertical-scroll-proportion="0.15827338" vertical-offset="4045" max-vertical-offset="4740" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="17" selection-start="4021" selection-end="4021" vertical-scroll-proportion="1.5042373" vertical-offset="0" max-vertical-offset="1635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="269" selection-end="269" vertical-scroll-proportion="0.23305085" vertical-offset="0" max-vertical-offset="708" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="663" column="7" selection-start="19094" selection-end="19094" vertical-scroll-proportion="0.25755396" vertical-offset="9766" max-vertical-offset="20880" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="794" column="20" selection-start="24073" selection-end="24073" vertical-scroll-proportion="0.34463277" vertical-offset="11666" max-vertical-offset="20205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/halo/HaloModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="44" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.61440676" vertical-offset="0" max-vertical-offset="1665">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
-            <marker date="1434363979000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1434363979000" expanded="true" signature="-1:-1" placeholder="SELECT %s FR..." />
-            <marker date="1434363979000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/UploadiMages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="6" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.21610169" vertical-offset="657" max-vertical-offset="1365">
+        <state line="794" column="20" selection-start="24073" selection-end="24073" vertical-scroll-proportion="0.34562212" vertical-offset="11685" max-vertical-offset="20205">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/UploadiMages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="632" selection-end="632" vertical-scroll-proportion="0.529661" vertical-offset="0" max-vertical-offset="708">
+        <state line="24" column="1" selection-start="602" selection-end="602" vertical-scroll-proportion="0.5421687" vertical-offset="0" max-vertical-offset="664">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
+    <entry file="file://$PROJECT_DIR$/application/models/UploadiMages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="26" selection-start="2415" selection-end="2415" vertical-scroll-proportion="-56.875" vertical-offset="0" max-vertical-offset="4740">
+        <state line="98" column="14" selection-start="3261" selection-end="3262" vertical-scroll-proportion="-15.166667" vertical-offset="1106" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
+    <entry file="file://$PROJECT_DIR$/application/library/halo/HaloModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="792" selection-end="792" vertical-scroll-proportion="27.375" vertical-offset="927" max-vertical-offset="1635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="339" selection-end="339" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="708">
-          <folding />
+        <state line="129" column="5" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.7063253" vertical-offset="1466" max-vertical-offset="2175">
+          <folding>
+            <element signature="e#6#87#0" expanded="true" />
+            <marker date="1435822309000" expanded="true" signature="1479:1512" placeholder="SELECT * FRO..." />
+            <marker date="1435822309000" expanded="true" signature="1576:1610" placeholder="SELECT %s FR..." />
+            <marker date="1435822309000" expanded="true" signature="2424:2445" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
