@@ -7,19 +7,21 @@
  * Time: 下午10:05
  */
 
-class ApiController extends BaseController{
+class ApiController extends ApiBaseController{
 
     public function init(){
-        header('Content-type:text/json');
     }
 
     public function getDeviceInfoAction(){
         if($this->getRequest()->isPost()){
+            echo json_encode($_POST);
             echo json_encode($_SERVER);
         }else{
             echo json_encode('请用POST对接!Thanks u~');
         }
     }
+
+
 }
 
 ?>
