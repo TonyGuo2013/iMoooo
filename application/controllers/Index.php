@@ -18,8 +18,10 @@ class IndexController extends BaseController {
             return true;
         }
 	}
-    public function infoAction()
-    {
-        phpinfo();
+
+    public function getImagesPathAction(){
+        echo "<pre>";
+        print_R($_SERVER);
+        return false;
     }
 }

@@ -87,6 +87,7 @@ class UploadiMagesModel extends HaloModel{
                      $Formdesc['pic_desc']      = $Formdesc['con_desc'];
                      $Formdesc['camera_device'] = $Formdesc['device'];
                      $Formdesc['add_time']      = time();
+                     $Formdesc['opertion_user_id'] = $_SESSION['uid'];
                      unset($Formdesc['con_desc'],$Formdesc['device'],$Formdesc['device']);
 
                      $UploadPicId = $this->insertTable('im_feed',$Formdesc);
