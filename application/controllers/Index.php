@@ -15,7 +15,7 @@ class IndexController extends BaseController {
             echo 'Email:GuoYexuan@imoooo.cn';
             return false;
         }else{
-            return true;
+            $this->display('index');
         }
 	}
 
