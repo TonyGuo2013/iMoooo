@@ -9,7 +9,9 @@
 
 class ApiController extends BaseController{
 
-    public function init(){}
+    public function init(){
+        header('Content-type:text/json');
+    }
 
     public function getDeviceInfoAction(){
         if($this->getRequest()->isPost()){
