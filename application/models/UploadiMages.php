@@ -82,7 +82,7 @@ class UploadiMagesModel extends HaloModel{
                  @chmod($path['file_path'],0777);
 
                  if(move_uploaded_file($Picture['tmp_name'],$path['file_path'].$path['file_name'].".".$picExtension['extension'])){
-                     
+
                      $Formdesc['pic_name']      = $path['file_name'].".".$picExtension['extension'];
                      $Formdesc['pic_desc']      = $Formdesc['con_desc'];
                      $Formdesc['camera_device'] = $Formdesc['device'];
