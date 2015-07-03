@@ -13,9 +13,9 @@ class ApiController extends BaseController{
 
     public function getDeviceInfoAction(){
         if($this->getRequest()->isPost()){
-            return json_encode($_SERVER);
+            echo json_encode($_SERVER);
         }else{
-            return json_encode('请用POST对接!Thanks u~');
+            echo json_encode('请用POST对接!Thanks u~');
         }
     }
 }
