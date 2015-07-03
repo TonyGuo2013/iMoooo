@@ -86,7 +86,7 @@ class HaloModel{
             return false;
 
         $sql = sprintf('INSERT INTO %s SET %s', $table, $fields);
-        echo $sql;
+//        echo $sql;
         $this->query($sql, $values);
         $insertId = $this->dbh->lastInsertId();
         if ($insertId === '0')
@@ -114,7 +114,6 @@ class HaloModel{
      */
     public function getConditionArray($data)
     {
-        print_R($data);
         if(count($data) == 0)
             return array(null, null);
 

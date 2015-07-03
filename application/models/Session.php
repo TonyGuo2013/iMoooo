@@ -22,7 +22,6 @@ class SessionModel extends HaloModel{
      * 登出
      */
     static public function Logout(){
-//        session_destroy();
         setcookie("uid", "",time()-3600);
         setcookie("username", "",time()-3600);
     }

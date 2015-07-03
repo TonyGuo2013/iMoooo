@@ -13,10 +13,6 @@ class SystemAdminController extends BaseController{
     public function init(){
         parent::init();
         $this->userModel = new AccountModel();
-//        if(empty($this->uid)){
-//            $this->display('home');
-//        }
-
     }
     public function indexAction()
     {
@@ -36,9 +32,6 @@ class SystemAdminController extends BaseController{
                     $user = $this->userModel->checkLogin($params['username'],$params['password']);
                     if($user){
                         SessionModel::Login($user);
-//                        print_R($_COOKIE);
-//                        print_R($user);
-//                        die;
                         echo 1;
                         return false;
                     }else{

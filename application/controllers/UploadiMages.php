@@ -18,9 +18,14 @@ class UploadiMagesController extends BaseController{
             echo  'error:'.$this->iMagesModel->checkUploadiMagesByError($_FILES['pictures']['error']);
             return false;
         }else{
-            $this->iMagesModel->UploadiMagesToDir($_FILES['pictures'],$_POST);
+            $isSuccessBool = $this->iMagesModel->UploadiMagesToDir($_FILES['pictures'],$_POST);
+            if($isSuccessBool){
+                echo "<script>alert('Sweet! Success!!');window.location.href='/systemadmin/home'</script>";
+            }else{
+                echo "<script>alert('Nopo! Error!! Please check it Or Send EMail:guoyeuxan@imoooo.com.Tnx u .');</script>";
+            }
         }
-        die;
+        return false;
     }
 }
 ?>

@@ -71,26 +71,29 @@ class UploadiMagesModel extends HaloModel{
      */
     public function UploadiMagesToDir($Picture,$Formdesc){
         $picExtension['extension'] = pathinfo($Picture['name'])['extension'];
-//        if($Picture['size'] > $this->maxsize || !$this->checkType($picExtension['extension'])){
-//            exit('Please check U upload file type.Thank u ~');
-//        }
         if($Picture['size'] > $this->maxsize || !$this->checkType($Picture['type'])){
-            exit('Please check U upload file type.Thank u ~');
+             return 'Please check U upload file type.Thank u ~';
         }
         if($this->checkUploadiMagesByError($Picture['error'])){
-            echo "<pre>";
-            print_R($Picture);
              if($this->checkType($Picture['type'])){
                  $path = $this->CreateUploadDirByTime();
                  $this->mkdirByTime($path['file_path']);
                  /*文件夹赋权限*/
                  @chmod($path['file_path'],0777);
+
                  if(move_uploaded_file($Picture['tmp_name'],$path['file_path'].$path['file_name'].".".$picExtension['extension'])){
-                     $Formdesc['pic_name'] = $path['file_name'].".".$picExtension['extension'];
-                     $Formdesc['pic_desc'] = $Formdesc['con_desc'];
+                     
+                     $Formdesc['pic_name']      = $path['file_name'].".".$picExtension['extension'];
+                     $Formdesc['pic_desc']      = $Formdesc['con_desc'];
                      $Formdesc['camera_device'] = $Formdesc['device'];
+                     $Formdesc['add_time']      = time();
                      unset($Formdesc['con_desc'],$Formdesc['device'],$Formdesc['device']);
-                     $this->inserPictureDesc($Formdesc);
+
+                     $UploadPicId = $this->insertTable('im_feed',$Formdesc);
+                     if($UploadPicId){
+                         return 200;
+                     }
+
                  }else{
                      return 'Move Pic Error~:(';
                  }
@@ -98,16 +101,6 @@ class UploadiMagesModel extends HaloModel{
                  exit('File Type Error ~ Please check it.');
              }
         }
-    }
-
-    /*
-     * 插入图片信息;地点、任务、设备信息、图片简介.
-     */
-    public function inserPictureDesc($Formdesc){
-        echo "<pre>";
-        $res = $this->insertTable('im_feed',$Formdesc);
-        print_R($res);
-        return false;
     }
 }
 ?>
