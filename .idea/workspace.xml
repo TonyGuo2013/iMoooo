@@ -23,24 +23,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Api.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Api.php">
+      <file leaf-file-name="SystemAdmin.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="37" selection-start="313" selection-end="313" vertical-scroll-proportion="0.36253777" vertical-offset="0" max-vertical-offset="662">
+            <state line="48" column="5" selection-start="1329" selection-end="1329" vertical-scroll-proportion="1.0722891" vertical-offset="8" max-vertical-offset="840">
               <folding>
-                <element signature="e#6#105#0" expanded="true" />
+                <element signature="e#6#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiBase.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/ApiBase.php">
+      <file leaf-file-name="Bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="173" selection-end="173" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="360">
-              <folding>
-                <element signature="e#6#88#0" expanded="true" />
-              </folding>
+            <state line="12" column="22" selection-start="342" selection-end="342" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadiMages.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/UploadiMages.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yaf.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/library/yaf/yaf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="15" selection-start="277" selection-end="277" vertical-scroll-proportion="605.0" vertical-offset="14760" max-vertical-offset="23115">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,26 +93,27 @@
         <option value="$PROJECT_DIR$/application/views/aboutme/index.phtml" />
         <option value="$PROJECT_DIR$/public/assets/css/imoooo.css" />
         <option value="$PROJECT_DIR$/application/views/systemadmin/home.phtml" />
-        <option value="$PROJECT_DIR$/application/controllers/SystemAdmin.php" />
         <option value="$PROJECT_DIR$/application/library/halo/HaloModel.php" />
         <option value="$PROJECT_DIR$/application/models/Session.php" />
-        <option value="$PROJECT_DIR$/application/controllers/UploadiMages.php" />
         <option value="$PROJECT_DIR$/application/models/UploadiMages.php" />
         <option value="$PROJECT_DIR$/public/assets/js/imoooo.js" />
-        <option value="$PROJECT_DIR$/application/Bootstrap.php" />
         <option value="$PROJECT_DIR$/application/controllers/Index.php" />
         <option value="$PROJECT_DIR$/application/views/index/index.phtml" />
         <option value="$PROJECT_DIR$/application/controllers/ApiBaseController.php" />
-        <option value="$PROJECT_DIR$/application/controllers/ApiBase.php" />
         <option value="$PROJECT_DIR$/application/controllers/Api.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ApiBase.php" />
+        <option value="$PROJECT_DIR$/application/controllers/UploadiMages.php" />
+        <option value="$PROJECT_DIR$/application/controllers/SystemAdmin.php" />
+        <option value="$PROJECT_DIR$/application/Bootstrap.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1280" />
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="832" />
+    <option name="width" value="1280" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -280,6 +297,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="halo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imoooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -292,7 +389,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wrm_operation_admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../syswin/dichan" />
     <property name="options.lastSelected" value="org.intellij.plugins.intelliLang.InjectionsSettingsUI" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -351,7 +448,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="832" extended-state="0" />
+    <frame x="-1280" y="22" width="1280" height="834" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -359,7 +456,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20600858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23909532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -389,7 +486,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -433,11 +530,6 @@
         <state line="5" column="24" selection-start="161" selection-end="161" vertical-scroll-proportion="0.09014423" vertical-offset="0" max-vertical-offset="832" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Aboutme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.18028846" vertical-offset="0" max-vertical-offset="855" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="9" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.34254807" vertical-offset="1290" max-vertical-offset="15300" />
@@ -449,11 +541,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/aboutme/index.phtml_bak">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="30" selection-start="1050" selection-end="1050" vertical-scroll-proportion="-3.0046296" vertical-offset="2232" max-vertical-offset="5730" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_c.php">
@@ -474,11 +566,6 @@
     <entry file="file://$PROJECT_DIR$/application/library/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/yaf/LocalAutoLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="60" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.5084746" vertical-offset="75" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
@@ -521,13 +608,6 @@
         <state line="15" column="30" selection-start="347" selection-end="357" vertical-scroll-proportion="0.33885542" vertical-offset="0" max-vertical-offset="4035" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/yaf/yaf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="44" selection-start="4362" selection-end="4362" vertical-scroll-proportion="0.22590362" vertical-offset="3645" max-vertical-offset="23115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/configs/SystemConfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="49" selection-start="575" selection-end="582" vertical-scroll-proportion="0.31626505" vertical-offset="0" max-vertical-offset="664" />
@@ -536,11 +616,6 @@
     <entry file="file://$PROJECT_DIR$/public/assets/css/amazeui.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/yaf/YafController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="5" selection-start="8529" selection-end="8529" vertical-scroll-proportion="-178.125" vertical-offset="0" max-vertical-offset="4815" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/aboutme/index.phtml">
@@ -580,9 +655,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="794" column="20" selection-start="24073" selection-end="24073" vertical-scroll-proportion="0.34562212" vertical-offset="11685" max-vertical-offset="20205">
-          <folding />
-        </state>
+        <state line="794" column="20" selection-start="24073" selection-end="24073" vertical-scroll-proportion="0.34562212" vertical-offset="11685" max-vertical-offset="20205" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/amazeui.js">
@@ -595,80 +668,98 @@
         <state line="16" column="2" selection-start="344" selection-end="344" vertical-scroll-proportion="0.33898306" vertical-offset="0" max-vertical-offset="708" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/halo/HaloModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="5" selection-start="3147" selection-end="3147" vertical-scroll-proportion="0.29519773" vertical-offset="1426" max-vertical-offset="2160" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="22" selection-start="330" selection-end="333" vertical-scroll-proportion="0.38345864" vertical-offset="0" max-vertical-offset="665" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/UploadiMages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="266" selection-end="266" vertical-scroll-proportion="0.2932331" vertical-offset="0" max-vertical-offset="665" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/UploadiMages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="20" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.30075186" vertical-offset="1015" max-vertical-offset="1680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="347" selection-end="347" vertical-scroll-proportion="0.23007518" vertical-offset="57" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="355" selection-end="355" vertical-scroll-proportion="0.27190334" vertical-offset="0" max-vertical-offset="662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/imoooo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="231" selection-end="231" vertical-scroll-proportion="0.13119534" vertical-offset="0" max-vertical-offset="686">
-          <folding />
-        </state>
+        <state line="6" column="34" selection-start="231" selection-end="231" vertical-scroll-proportion="0.13119534" vertical-offset="0" max-vertical-offset="686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="94" selection-start="707" selection-end="707" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1650">
-          <folding />
-        </state>
+        <state line="15" column="94" selection-start="707" selection-end="707" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1650" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="610" selection-end="610" vertical-scroll-proportion="0.49848944" vertical-offset="0" max-vertical-offset="662">
-          <folding />
-        </state>
+        <state line="22" column="21" selection-start="610" selection-end="610" vertical-scroll-proportion="0.49848944" vertical-offset="0" max-vertical-offset="662" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Aboutme.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="486" selection-end="486" vertical-scroll-proportion="0.30046225" vertical-offset="0" max-vertical-offset="4740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ApiBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="173" selection-end="173" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <element signature="e#6#88#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="18" column="16" selection-start="301" selection-end="301" vertical-scroll-proportion="0.08450704" vertical-offset="141" max-vertical-offset="780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="313" selection-end="313" vertical-scroll-proportion="0.36253777" vertical-offset="0" max-vertical-offset="662">
+        <state line="15" column="6" selection-start="203" selection-end="203" vertical-scroll-proportion="0.33987916" vertical-offset="0" max-vertical-offset="662" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ApiBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.09063444" vertical-offset="0" max-vertical-offset="662" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.023112481" vertical-offset="0" max-vertical-offset="4740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/UploadiMages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="47" selection-start="2977" selection-end="2977" vertical-scroll-proportion="0.5468278" vertical-offset="1018" max-vertical-offset="1680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/library/halo/HaloModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="587" selection-end="587" vertical-scroll-proportion="0.47583082" vertical-offset="0" max-vertical-offset="2160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/library/yaf/YafController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="19" selection-start="9263" selection-end="9266" vertical-scroll-proportion="0.8108449" vertical-offset="3962" max-vertical-offset="4755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/library/yaf/LocalAutoLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="51" selection-start="717" selection-end="717" vertical-scroll-proportion="0.3966346" vertical-offset="0" max-vertical-offset="832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/library/yaf/yaf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="15" selection-start="277" selection-end="277" vertical-scroll-proportion="605.0" vertical-offset="14760" max-vertical-offset="23115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="342" selection-end="342" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/UploadiMages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/SystemAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="5" selection-start="1329" selection-end="1329" vertical-scroll-proportion="1.0722891" vertical-offset="8" max-vertical-offset="840">
           <folding>
-            <element signature="e#6#105#0" expanded="true" />
+            <element signature="e#6#89#0" expanded="true" />
           </folding>
         </state>
       </provider>

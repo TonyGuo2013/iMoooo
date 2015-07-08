@@ -2,8 +2,8 @@
 /*
  * Created by PhpStorm.
  * User: YexuanGuo
- * Date: 15-6-10
- * Time: 下午8:17
+ * Date: 15-7-3
+ * Time: 下午2015年07月03日23:51:45
  */
 class UploadiMagesController extends BaseController{
 

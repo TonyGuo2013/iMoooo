@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: YexuanGuo
  * Date: 15-7-3
- * Time: 下午10:34
+ * Time: 2015年07月03日23:50:35
  */
 
 class ApiBaseController extends YafController{
